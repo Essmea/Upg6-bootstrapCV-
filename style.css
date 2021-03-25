@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    box-sizing: inherit;
+}
+body {
+    background-image: url(bakgrund.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 1050px;
+    max-height: 820px;
+    background-image: url(bakgrund.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; 
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column-ett {
+    padding-top: 30px;
+    max-width: 800px;
+}
+.column-två {
+    max-width: 200px;
+    padding-top: 50px;
+    
+}
+
+.ett {
+    display: flex;
+    align-items: flex-end;
+    max-width: 800px;
+}
+.två{
+    display: flex;
+    max-width: 800px; 
+}
+
+.tre {
+    display: flex;
+    flex-direction: column; 
+        
+
+}.fyra {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+ .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+
+.bg-transparent {
+    background-color: rgba(255, 255, 255, 0.404) !important;
+  }
+
+.iconer {
+    
+    padding-top: 30px;
+}
+.titel-två {
+    color:rgb(60, 58, 190);
+}
+
+.card-body-2 {
+    width: 200px;
+    margin: 31px;
+    
+}
+.card-body-3 {
+    width: 480px;
+    margin-right: 40px;
+    
+}
+.illu {
+    width: 250px;
+}
+.favorites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    
+}
+
+.logga {
+    padding-bottom: 20px;
+    padding-right: 25px;
+}
+
+.fav-bild {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#fav-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    padding-right: 37px;
+}
